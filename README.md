@@ -24,6 +24,12 @@ and all of these applications can be opened by this app with their bundleIdentif
 
 Also, we list all the public and private scheme urls.
 
+install
+---------
+```Podfile
+pod 'LMApp', '0.1.0'
+```
+
 References
 ---------
 * <https://github.com/Shmoopi/iOS-System-Services>
