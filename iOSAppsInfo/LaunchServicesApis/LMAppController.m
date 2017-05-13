@@ -35,17 +35,17 @@
 	return self;
 }
 
-- (NSArray*)privateURLSchemes
+- (NSArray<NSString *>*)privateURLSchemes
 {
     return [_workspace privateURLSchemes];
 }
 
-- (NSArray*)publicURLSchemes
+- (NSArray<NSString *>*)publicURLSchemes
 {
     return [_workspace publicURLSchemes];
 }
 
-- (NSArray*)readApplications
+- (NSArray<LMApp *> *)readApplications
 {
 	NSArray* allInstalledApplications = [_workspace allInstalledApplications];
 	NSMutableArray* applications = [NSMutableArray arrayWithCapacity:allInstalledApplications.count];
@@ -61,7 +61,7 @@
 	return applications;
 }
 
-- (NSArray*)installedApplications
+- (NSArray<LMApp *> *)installedApplications
 {
 	if(nil == _installedApplications)
 	{

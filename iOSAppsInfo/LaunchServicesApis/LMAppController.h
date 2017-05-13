@@ -11,11 +11,11 @@
 
 @interface LMAppController : NSObject
 
-@property (nonatomic, readonly) NSArray* installedApplications;
+@property (nonatomic, readonly) NSArray<LMApp *>* installedApplications;
 
 - (BOOL)openAppWithBundleIdentifier:(NSString*)bundleIdentifier;
-- (NSArray*)privateURLSchemes;
-- (NSArray*)publicURLSchemes;
+- (NSArray<NSString *>*)privateURLSchemes;
+- (NSArray<NSString *>*)publicURLSchemes;
 
 + (instancetype)sharedInstance;
 

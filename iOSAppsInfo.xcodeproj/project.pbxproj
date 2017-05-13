@@ -17,6 +17,7 @@
 		81ED21AD1BF718690045C284 /* LMApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED21AA1BF718690045C284 /* LMApp.m */; };
 		81ED21AE1BF718690045C284 /* LMAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED21AC1BF718690045C284 /* LMAppController.m */; };
 		81ED21B11BF71BD70045C284 /* SchemeURLsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED21B01BF71BD70045C284 /* SchemeURLsTableViewController.m */; };
+		F65920371EC6C16E0065678D /* LMApp.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F65920361EC6C16E0065678D /* LMApp.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		81ED21AC1BF718690045C284 /* LMAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMAppController.m; sourceTree = "<group>"; };
 		81ED21AF1BF71BD70045C284 /* SchemeURLsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemeURLsTableViewController.h; sourceTree = "<group>"; };
 		81ED21B01BF71BD70045C284 /* SchemeURLsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemeURLsTableViewController.m; sourceTree = "<group>"; };
+		F65920361EC6C16E0065678D /* LMApp.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LMApp.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		81ED21811BF7170F0045C284 = {
 			isa = PBXGroup;
 			children = (
+				F65920361EC6C16E0065678D /* LMApp.podspec */,
 				81ED218C1BF7170F0045C284 /* iOSAppsInfo */,
 				81ED218B1BF7170F0045C284 /* Products */,
 			);
@@ -140,6 +143,7 @@
 				TargetAttributes = {
 					81ED21891BF7170F0045C284 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = N2F8Q9NN7S;
 					};
 				};
 			};
@@ -169,6 +173,7 @@
 				81ED219D1BF717100045C284 /* LaunchScreen.storyboard in Resources */,
 				81ED219A1BF717100045C284 /* Assets.xcassets in Resources */,
 				81ED21981BF717100045C284 /* Main.storyboard in Resources */,
+				F65920371EC6C16E0065678D /* LMApp.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2F8Q9NN7S;
 				INFOPLIST_FILE = iOSAppsInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.iOSAppsInfo;
@@ -308,6 +314,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2F8Q9NN7S;
 				INFOPLIST_FILE = iOSAppsInfo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.wujianguo.iOSAppsInfo;
